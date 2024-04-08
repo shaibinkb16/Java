@@ -40,15 +40,15 @@ class Fiction extends Book {
 
 public class BookDetails {
     public static void main(String[] args) {
+    	System.out.println("Name : Shaibin K B\nRoll.no : 50\nDate : 08/04/2024\n");
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("How many Literature books do you want to add? ");
         int numLiteratureBooks = scanner.nextInt();
-        scanner.nextLine(); // Consume newline character
-
+        scanner.nextLine(); 
         System.out.print("How many Fiction books do you want to add? ");
         int numFictionBooks = scanner.nextInt();
-        scanner.nextLine(); // Consume newline character
+        scanner.nextLine();
 
         Book[] literatureBooks = new Book[numLiteratureBooks];
         Book[] fictionBooks = new Book[numFictionBooks];
