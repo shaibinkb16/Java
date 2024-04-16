@@ -10,6 +10,9 @@ public class driver {
         rectangle obj2 = new rectangle();
         square obj3 = new square();
         triangle obj4 = new triangle();
+        System.out.println("Name: Shaibin K B");
+        System.out.println("Reg. No: 23MCA050");
+        System.out.println("Date: 15/04/2024");
 
         while (true) {
             System.out.println("Choose any:");

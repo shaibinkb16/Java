@@ -6,6 +6,9 @@ public static void main(String[] args) {
 
 ArithmeticOperations operations = new ArithmeticOperations();
 Scanner scanner = new Scanner(System.in);
+  System.out.println("Name: Shaibin K B");
+  System.out.println("Reg. No: 23MCA050");
+  System.out.println("Date: 15/04/2024");
 System.out.print("Enter the first number: ");
 double num1 = scanner.nextDouble();
 System.out.print("Enter the second number: ");
